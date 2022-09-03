@@ -6,11 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Battleship</title>
     <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="icon" href="./assets/icon.jpg">
     <script type="module" src="./assets/js/index.js"></script>
 </head>
 
 <body>
     <h1>Battleship</h1>
+    <h2 class="clicks">You have 20 clicks remaining!</h2>
+
+    <button id="howToButton">Open How-to</button>
+    <div class="howTo hidden">
+        <h3>How-to Play</h3>
+        <ul>
+            <li>Click squares to try and hit enemy ships</li>
+            <li>If you hit a ship, the aquare will become green with a number representing the length of the ship</li>
+            <li>If you miss, the square will become red with an 'X'</li>
+            <li>To win, sink all 5 of the enemy ships</li>
+            <li>You have a limited number of clicks, and you gain 2 clicks every time you hit a ship</li>
+        </ul>
+    </div>
 </body>
 
 </html>
